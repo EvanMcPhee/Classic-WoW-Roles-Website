@@ -1,0 +1,160 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.banner{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background-color: #464D79;
+}    
+.banner h1{
+    font-size: 40px;
+    line-height: 100px;
+    text-align:center;
+    color: black;
+}
+.navbar{
+    width: 100%;
+    height: 45px;
+    background-color:#6A75B8;
+    text-align: center;
+    color: black;
+}
+.navbar ul{
+    list-style-type: none;
+    line-height: 45px;
+}
+.navbar ul li{
+    display: inline;
+    padding: 3%;
+    font-size: 30px;
+}
+
+.navbar ul li a{
+    color: black;
+}
+
+.footer{
+    width: 100%;
+    height: 24px;
+    background-color:#464D79;
+}
+
+.content{ 
+    width: 100%;
+    height: 800px;
+    display: flex;
+    background-color: black;
+}
+.content-textarea{
+    font-size: 30px;
+    height: 100%;
+    width: 50%;
+    order: 2;
+    background-color: blanchedalmond;
+}
+.content-text{
+    margin: 3%;
+}
+.left-banner{
+    width:25%;
+    background-image: url("horde.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    order: 1;
+}
+.right-banner{
+    width:25%;
+    background-image: url("alliance.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    order: 3;
+}
+.nefkill{
+    background-image: url("nefkill.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width:100%;
+}
+table, td{
+    border: 1px solid black;
+}
+.grid-description{
+    font-size: 15px;
+    padding: 2px;
+}
+.grid-name{
+    font-size: 20px;
+    text-align: center;
+    padding:2px;
+}
+.warrior-icon{
+    background-image: url("warrior.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+}
+.druid-icon{
+    background-image: url("druid.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+}
+.hunter-icon{
+    background-image: url("hunter.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+}
+.mage-icon{
+    background-image: url("mage.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+}
+.paladin-icon{
+    background-image: url("paladin.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+
+}
+.priest-icon{
+    background-image: url("priest.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+}
+.rogue-icon{
+    background-image: url("rogue.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+}
+.shaman-icon{
+    background-image: url("shaman.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+}
+.warlock-icon{
+    background-image: url("warlock.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+}
